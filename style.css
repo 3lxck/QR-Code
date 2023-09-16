@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dancing+Script:wght@400;500;600;700&family=Kalam:wght@300;400&family=Outfit:wght@400;700&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qrcode {
+  margin-top: 10%;
+  width: 22%;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+.qrimg {
+  margin: 10px;
+}
+.qrimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 22px;
+  font-family: outfit;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding: 5px 20px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: outfit;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+}
+@media (max-width: 375px) {
+  .qrcode {
+    margin-top: 15%;
+    width: 90%;
+  }
+}
